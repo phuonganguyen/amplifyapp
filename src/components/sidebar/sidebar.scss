@@ -1,0 +1,22 @@
+.sidebar{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    background-color: #bd5d38;
+
+    .navbar-brand{
+        margin: auto auto 0;
+        padding: .5rem;
+
+        .img-profile{
+            width: 150px;
+            height: 150px;
+            border: .5rem solid rgba(255,255,255,.2);
+        }
+    }
+}
