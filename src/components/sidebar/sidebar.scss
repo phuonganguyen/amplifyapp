@@ -19,4 +19,16 @@
             border: .5rem solid rgba(255,255,255,.2);
         }
     }
+
+    .navbar-collapse{
+        align-items: flex-start;
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: auto;
+
+        .navbar-nav{
+            flex-direction: column;
+            width: 100%;
+        }
+    }
 }
