@@ -15,8 +15,8 @@
         padding: .5rem;
 
         .img-profile{
-            width: 150px;
-            height: 150px;
+            max-width: 10rem;
+            max-height: 10rem;
             margin-bottom: 10px;
         }
 
@@ -43,10 +43,15 @@
         margin-bottom: 45px;
 
         .navbar-nav{
+            flex-direction: column;
             width: 100%;
 
-            .nav-link:hover{
-                color: #fff;
+            .nav-link{
+                letter-spacing: .05rem;
+
+                &:hover{
+                    color: #fff;
+                }
             }
         }
     }
@@ -69,6 +74,20 @@
             font-size: 18px;
             display: inline-block;
             padding: .2em .3em;
+        }
+    }
+}
+
+@media(min-width: 992px){
+    .sidebar{
+        .navbar-collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }

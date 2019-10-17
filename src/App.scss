@@ -1,2 +1,35 @@
-@import '~bootstrap/scss/bootstrap.scss';
-@import '~font-awesome/scss/font-awesome.scss';
+.wrapper{
+    margin-left: 17rem;
+
+    &::before{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: auto;
+        display: block;
+        content: " ";
+        width: 17rem;
+        background: url(./images/home-bg.jpg) top center no-repeat #bababa;
+        background-size: cover;
+    }
+}
+
+section{
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+    max-width: 75rem;
+}
+
+@media (min-width: 992px){
+    section{
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+    }
+}
+
+@media(min-width: 768px){
+    section{
+        min-height: 100vh;
+    }
+}
