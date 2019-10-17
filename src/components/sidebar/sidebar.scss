@@ -34,10 +34,11 @@
     }
 
     .navbar-collapse{
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
         align-items: flex-start;
         flex-grow: 0;
         width: 100%;
-        font-size: 14px;
+        font-size: 15px;
         text-transform: uppercase;
         margin-top: 45px;
         margin-bottom: 45px;
@@ -58,8 +59,16 @@
 
     .contact{
         margin: 0 auto auto;
-        font-size: 14px;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        font-size: 15px;
         
+        span{
+            text-transform: uppercase;
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.5);
+            margin-bottom: 15px;
+        }
+
         a{
             color: rgba(255, 255, 255, 0.5);
             text-transform: uppercase;
@@ -71,7 +80,7 @@
         }
 
         .social-icons .button{
-            font-size: 18px;
+            font-size: 22px;
             display: inline-block;
             padding: .2em .3em;
         }
