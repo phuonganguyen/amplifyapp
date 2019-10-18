@@ -25,7 +25,7 @@ export default class Sidebar extends Component{
                             <Nav.Link href="#experience">Experience</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link href="#">Skills</Nav.Link>
+                            <Nav.Link href="#skills">Skills</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
                             <Nav.Link href="#contact">Contact</Nav.Link>

@@ -10,7 +10,7 @@ export default class Experience extends Component{
                         <div className="resume-content">
                             <h3 className="mb-0">Software Engineer</h3>
                             <div className="subheading mb-3">
-                                <a href="https://nexcel.vn" target="_blank">Nexcel Solutions</a>
+                                <a rel="noopener noreferrer" href="https://nexcel.vn" target="_blank">Nexcel Solutions</a>
                             </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
@@ -22,7 +22,7 @@ export default class Experience extends Component{
                         <div className="resume-content">
                             <h3 className="mb-0">Software Developer</h3>
                             <div className="subheading mb-3">
-                                <a href="https://memberson.com" target="_blank">Memberson</a>
+                                <a rel="noopener noreferrer" href="https://memberson.com" target="_blank">Memberson</a>
                             </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
@@ -34,7 +34,7 @@ export default class Experience extends Component{
                         <div className="resume-content">
                             <h3 className="mb-0">Associate Software Engineer</h3>
                             <div className="subheading mb-3">
-                                <a href="https://www.dxc.technology/vn_en" target="_blank">CSC (DXC Technology)</a>
+                                <a rel="noopener noreferrer" href="https://www.dxc.technology/vn_en" target="_blank">CSC (DXC Technology)</a>
                             </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>

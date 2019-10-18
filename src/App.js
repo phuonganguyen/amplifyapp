@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container'
 import './App.scss';
 import Sidebar from './components/sidebar';
-import Home from './components/home/home';
+import Home from './components/home';
 import About from './components/about';
 import Experience from './components/experience';
+import Skills from './components/skills';
 import Contact from './components/contact';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
           <Home></Home>
           <About></About>
           <Experience></Experience>
+          <Skills></Skills>
           <Contact></Contact>
         </Container>
       </div>
