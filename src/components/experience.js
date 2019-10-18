@@ -8,8 +8,10 @@ export default class Experience extends Component{
                     <h2 className="mb-5 title">Experience</h2>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Nexcel Solutions</h3>
-                            <div className="subheading mb-3">Software Engineer</div>
+                            <h3 className="mb-0">Software Engineer</h3>
+                            <div className="subheading mb-3">
+                                <a href="https://nexcel.vn" target="_blank">Nexcel Solutions</a>
+                            </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
                         <div className="resume-date text-md-right">
@@ -18,8 +20,10 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Memberson</h3>
-                            <div className="subheading mb-3">Software Developer</div>
+                            <h3 className="mb-0">Software Developer</h3>
+                            <div className="subheading mb-3">
+                                <a href="https://memberson.com" target="_blank">Memberson</a>
+                            </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
                         <div className="resume-date text-md-right">
@@ -28,8 +32,10 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">CSC (DXC Technology)</h3>
-                            <div className="subheading mb-3">Associate Software Engineer</div>
+                            <h3 className="mb-0">Associate Software Engineer</h3>
+                            <div className="subheading mb-3">
+                                <a href="https://www.dxc.technology/vn_en" target="_blank">CSC (DXC Technology)</a>
+                            </div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
                         <div className="resume-date text-md-right">
@@ -38,8 +44,8 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">HLV Solutions</h3>
-                            <div className="subheading mb-3">Intern</div>
+                            <h3 className="mb-0">Intern</h3>
+                            <div className="subheading mb-3">HLV Solutions</div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
                         <div className="resume-date text-md-right">
