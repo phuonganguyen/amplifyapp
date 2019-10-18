@@ -13,6 +13,10 @@ import aspnet from '../images/aspnet.png';
 import netcore from '../images/netcore.png';
 import wordpress from '../images/wordpress.png';
 import drupal from '../images/drupal.png';
+import entityframework from '../images/entityframework.png';
+import nhibernate from '../images/nhibernate.gif';
+import sqlserver from '../images/sqlserver.svg';
+import oracle from '../images/oracle.jpg';
 
 class Skills extends Component{
     render(){
@@ -46,6 +50,12 @@ class Skills extends Component{
                         <li className="list-inline-item">
                             <img src={cSharp} alt=""/>
                         </li>
+                        <li className="list-inline-item">
+                            <img src={sqlserver} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={oracle} alt=""/>
+                        </li>
                     </ul>
                     <h3 className="subheading mb-3">Frameworks</h3>
                     <ul className="list-inline dev-icons">
@@ -66,6 +76,12 @@ class Skills extends Component{
                         </li>
                         <li className="list-inline-item">
                             <img src={drupal} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={entityframework} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={nhibernate} alt=""/>
                         </li>
                     </ul>
                 </div>
