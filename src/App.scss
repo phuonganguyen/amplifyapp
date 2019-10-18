@@ -19,6 +19,32 @@ section{
     padding-top: 5rem!important;
     padding-bottom: 5rem!important;
     max-width: 75rem;
+
+    .title{
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 32px;
+
+        &:after{
+            content: "";
+            display: block;
+            height: 1px;
+            width: 400px;
+            background-color: #a51a1a;
+            position: relative;
+            top: 5px;
+            margin-left: 20px;
+        }
+    }
+}
+
+.resume-item .resume-date{
+    min-width: none;
 }
 
 @media (min-width: 992px){
@@ -31,5 +57,9 @@ section{
 @media(min-width: 768px){
     section{
         min-height: 100vh;
+    }
+
+    .resume-item .resume-date{
+        min-width: 18rem;
     }
 }

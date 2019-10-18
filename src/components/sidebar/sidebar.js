@@ -17,19 +17,19 @@ export default class Sidebar extends Component{
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav as="ul">
                         <Nav.Item as="li">
-                            <Nav.Link href="#about" data-nav-section="about">About</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link href="#experience" data-nav-section="experience">Experience</Nav.Link>
+                            <Nav.Link href="#experience">Experience</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
                             <Nav.Link href="#">Skills</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link href="#">My CV</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link href="#">Interests</Nav.Link>
+                            <Nav.Link href="#">My CV</Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
