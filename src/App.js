@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Container from 'react-bootstrap/Container'
 import './App.scss';
-import Sidebar from './components/sidebar/sidebar';
+import Sidebar from './components/sidebar';
 import Home from './components/home/home';
 import About from './components/about';
 import Experience from './components/experience';
