@@ -47,6 +47,35 @@ section{
     min-width: none;
 }
 
+.contact-section dl{
+    overflow: hidden;
+
+    dt{
+        display: block;
+        float: left;
+        clear: both;
+        width: 150px;
+    }
+
+    dd{
+        display: block;
+        float: left;
+        margin: 0;
+
+        a{
+            color: #a51a1a;
+            text-decoration: none;
+
+            i{
+                display: inline-block;
+                width: 1em;
+                text-align: center;
+                margin-right: .2em;
+            }
+        }
+    }
+}
+
 @media (min-width: 992px){
     section{
         padding-top: 3rem!important;
