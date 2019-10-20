@@ -17,6 +17,15 @@ import entityframework from '../images/entityframework.png';
 import nhibernate from '../images/nhibernate.gif';
 import sqlserver from '../images/sqlserver.svg';
 import oracle from '../images/oracle.jpg';
+import git from '../images/git.png';
+import jira from '../images/jira.png';
+import postman from '../images/postman.png';
+import webpack from '../images/webpack.png';
+import gulp from '../images/gulp.png';
+import grunt from '../images/grunt.png';
+import bower from '../images/bower.png';
+import nodejs from '../images/nodejs.svg';
+import npm from '../images/npm.png';
 
 class Skills extends Component{
     render(){
@@ -51,6 +60,12 @@ class Skills extends Component{
                             <img src={cSharp} alt=""/>
                         </li>
                         <li className="list-inline-item">
+                            <img src={nodejs} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={npm} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
                             <img src={sqlserver} alt=""/>
                         </li>
                         <li className="list-inline-item">
@@ -82,6 +97,30 @@ class Skills extends Component{
                         </li>
                         <li className="list-inline-item">
                             <img src={nhibernate} alt=""/>
+                        </li>
+                    </ul>
+                    <h3 className="subheading mb-3">Others</h3>
+                    <ul className="list-inline dev-icons">
+                    <li className="list-inline-item">
+                            <img src={webpack} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={gulp} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={grunt} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={bower} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={git} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={jira} alt=""/>
+                        </li>
+                        <li className="list-inline-item">
+                            <img src={postman} alt=""/>
                         </li>
                     </ul>
                 </div>

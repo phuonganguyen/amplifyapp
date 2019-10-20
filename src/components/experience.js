@@ -8,7 +8,7 @@ export default class Experience extends Component{
                     <h2 className="mb-5 title">Experience</h2>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Software Engineer</h3>
+                            <h3 className="heading mb-0">Software Engineer</h3>
                             <div className="subheading mb-3">
                                 <a rel="noopener noreferrer" href="https://nexcel.vn" target="_blank">Nexcel Solutions</a>
                             </div>
@@ -20,7 +20,7 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Software Developer</h3>
+                            <h3 className="heading mb-0">Software Developer</h3>
                             <div className="subheading mb-3">
                                 <a rel="noopener noreferrer" href="https://memberson.com" target="_blank">Memberson</a>
                             </div>
@@ -32,7 +32,7 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Associate Software Engineer</h3>
+                            <h3 className="heading mb-0">Associate Software Engineer</h3>
                             <div className="subheading mb-3">
                                 <a rel="noopener noreferrer" href="https://www.dxc.technology/vn_en" target="_blank">CSC (DXC Technology)</a>
                             </div>
@@ -44,7 +44,7 @@ export default class Experience extends Component{
                     </div>
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Intern</h3>
+                            <h3 className="heading mb-0">Intern</h3>
                             <div className="subheading mb-3">HLV Solutions</div>
                             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                         </div>
