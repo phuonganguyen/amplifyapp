@@ -36,7 +36,7 @@ export default class Experience extends Component{
                             <div className="subheading mb-3">
                                 <a rel="noopener noreferrer" href="https://www.dxc.technology/vn_en" target="_blank">CSC (DXC Technology)</a>
                             </div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <p>Developing Health Care product for CSC base on technologies: ASP.Net Webform, Telerik control, ASP.Net Web API, Wcf webservice, NHibernate framework, Oracle 11g, Stimusoft report, Jint framework, SignalR</p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span>Sep 2014 - Sep 2016</span>
@@ -46,7 +46,7 @@ export default class Experience extends Component{
                         <div className="resume-content">
                             <h3 className="heading mb-0">Intern</h3>
                             <div className="subheading mb-3">HLV Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <p>Developed Smart Parking, Canteen,Coffee Shop Management Systems.</p>
                         </div>
                         <div className="resume-date text-md-right">
                             <span>Jan 2013 - Sep 2013</span>
